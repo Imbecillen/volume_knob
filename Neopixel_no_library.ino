@@ -7,6 +7,8 @@
 #define encoderPinA PB3
 #define encoderPinB PB2
 #define encoderButton PB1 // active low since it shares build in LED, acts as a pull-down resistor
+#define TRINKET_PINx PINB
+
 
 #define LATCHSTATE PB4 //originally just 3, is this for a pin or something else?
 int buttonState = HIGH, lastButtonState = HIGH;
