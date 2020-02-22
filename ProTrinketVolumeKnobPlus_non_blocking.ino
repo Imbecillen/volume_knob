@@ -5,7 +5,7 @@
 #define PIN_ENCODER_A      3
 #define PIN_ENCODER_B      5
 #define TRINKET_PINx       PIND
-#define PIN_ENCODER_SWITCH 6 
+#define PIN_ENCODER_SWITCH 4 
 
 static uint8_t enc_prev_pos   = 0;
 static uint8_t enc_flags      = 0;
